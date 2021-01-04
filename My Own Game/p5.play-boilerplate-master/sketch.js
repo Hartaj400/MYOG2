@@ -21,14 +21,14 @@ bgImg = loadImage("bg.png");
 function setup(){
 
 
-   bg = createCanvas(600,-displayHeight,displayWidth,displayHeight);
+   bg = createCanvas(displayWidth,displayHeight);
  
   
 
 
  ball = createSprite(500,400,10,10);
  ball.shapeColor = "blue";
- trophy = createSprite(28,110,30,30);
+trophy = createSprite(28,110,30,30);
 trophy.addImage(trophyImg);
 trophy.scale = 10;
 
